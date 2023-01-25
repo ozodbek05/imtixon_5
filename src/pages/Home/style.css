@@ -1,0 +1,144 @@
+.home-box {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.title-line {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repostory {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 96%;
+  flex-wrap: wrap;
+}
+
+.html-title {
+  color: #1f6feb !important;
+  font-size: 20px;
+}
+
+.html-title:hover {
+  border-bottom: 1px solid;
+}
+
+.title-line-text {
+  color: lightgray;
+}
+
+.cart {
+  width: 435px;
+  padding: 20px 20px 15px 20px;
+  margin-top: 30px;
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  border: solid 1px rgb(59, 59, 59);
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: lightgray;
+}
+
+.pochin-btn {
+  width: 100%;
+  gap: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnss {
+  width: 5%;
+}
+
+.private {
+  border: 1px solid gray;
+  background: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: lightgray;
+}
+
+.home-cart-text {
+  margin: 0;
+}
+
+@media (max-width: 1270px) {
+  .wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .profil {
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+  }
+  .home-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cart {
+    width: 100%;
+    height: 100px;
+  }
+  .mt-2 {
+    margin-top: 50px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prof-image {
+    width: 200px;
+    height: 200px;
+  }
+  .prof-imagebox {
+    justify-content: flex-start;
+    padding: 20px 0px 20px 30px;
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .card {
+    width: 90% !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .desc {
+    width: auto;
+  }
+  .mx-3 {
+    align-items: flex-start !important;
+    margin: 20px !important;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 560px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */

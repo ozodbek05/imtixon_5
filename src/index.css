@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:1020px){
+    main{
+        flex-direction: column;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins'sans-serif;
+    background: #ffffff;;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
